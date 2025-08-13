@@ -149,11 +149,11 @@ nav ul li a {
 
 @media (max-width: 850px) {
   .trending-crypto-list {
-    grid-template-columns: repeat(1, 400px);
+    grid-template-columns: repeat(1, 500px);
   }
 
   .crypto-list {
-    grid-template-columns: repeat(1, 400px);
+    grid-template-columns: repeat(1, 500px);
   }
 }
 
@@ -169,5 +169,12 @@ nav ul li a {
 
   .search-box {
     width: 400px;
+  }
+    .trending-crypto-list {
+    grid-template-columns: repeat(1, 400px);
+  }
+
+  .crypto-list {
+    grid-template-columns: repeat(1, 400px);
   }
 }

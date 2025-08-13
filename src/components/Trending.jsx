@@ -28,8 +28,8 @@ export default function Trending() {
                     <li key={coin.item.id}>
                         <div className='trending-crypto-info-1'>
                             #{index + 1}<span className='coin-name'>{coin.item.name}</span>
-                            <div className='trending-crypto-info-2'>
-                                - ${coin.item.price_btc}
+                            <div className='trending-crypto-info-2'>  
+                                <span>-</span><span className='trending-crypto-price'>${coin.item.price_btc}</span>
                             </div>
                         </div>
 

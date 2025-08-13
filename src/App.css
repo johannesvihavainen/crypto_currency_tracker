@@ -138,8 +138,11 @@ nav ul li a {
 .trending-crypto-info-2 {
   margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  color: rgb(34, 183, 108);
+  flex-direction: row;
+  gap: 10px;
+}
+.trending-crypto-price {
+    color: rgb(34, 183, 108);
 }
 
 .crypto-coin-price {
